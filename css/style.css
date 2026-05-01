@@ -71,15 +71,15 @@ body {
 }
 
 .slide-bg-01 {
-    background-image: url("img/bg01_01.png");
+    background-image: url("../img/bg01_01.png");
 }
 
 .slide-bg-02 {
-    background-image: url("img/bg01_02.png");
+    background-image: url("../img/bg01_02.png");
 }
 
 .slide-bg-03 {
-    background-image: url("img/bg01_03.png");
+    background-image: url("../img/bg01_03.png");
 }
 
 .swiper-button-prev,
