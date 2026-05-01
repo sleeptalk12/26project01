@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>게시판</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="top-header">
+        <div class="top-header__inner">
+            <a class="logo" href="index.html">로고</a>
+            <nav aria-label="메인 메뉴">
+                <ul class="main-menu">
+                    <li><a href="sub01.html">회사소개</a></li>
+                    <li><a href="sub02.html">제품소개</a></li>
+                    <li><a href="sub03.html">온라인문의</a></li>
+                    <li><a href="sub04.html">게시판</a></li>
+                </ul>
+            </nav>
+            <button class="hamburger-btn" id="hamburgerBtn" type="button" aria-label="모바일 메뉴 열기">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <div class="drawer-overlay" id="drawerOverlay"></div>
+    <aside class="mobile-drawer" id="mobileDrawer" aria-hidden="true">
+        <div class="drawer-header">
+            <button class="drawer-close-btn" id="drawerCloseBtn" type="button" aria-label="모바일 메뉴 닫기">&times;</button>
+        </div>
+        <nav aria-label="모바일 메뉴">
+            <ul class="drawer-menu">
+                <li><a href="sub01.html">회사소개</a></li>
+                <li><a href="sub02.html">제품소개</a></li>
+                <li><a href="sub03.html">온라인문의</a></li>
+                <li><a href="sub04.html">게시판</a></li>
+            </ul>
+        </nav>
+    </aside>
+
+    <div class="subVisual" aria-label="서브 비주얼">
+        <div class="subVisual__inner">
+            <h1 class="subVisual__title">게시판</h1>
+            <div class="subVisual__path" aria-label="현재 위치">
+                <a href="index.html">홈</a>
+                <span aria-hidden="true">/</span>
+                <span>게시판</span>
+            </div>
+        </div>
+    </div>
+
+    <main class="main-content">
+        <section class="content-section about-intro">
+            <div class="about-intro__media">
+                <img src="https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=1200&q=80" alt="공지와 학습 정보를 확인하는 게시판 화면">
+            </div>
+            <div class="about-intro__text">
+                <h2>신뢰할 수 있는 <span>공지와 자료 소식</span>을 전달합니다.</h2>
+                <p class="about-intro__lead">최신 공지사항과 교육자료를 한 곳에서 편하게 확인하실 수 있습니다.</p>
+                <p>신규 교재 안내, 업데이트 정보, 이벤트 소식 등 교육 운영에 필요한 정보를 빠르게 확인할 수 있도록 게시판을 운영합니다.</p>
+                <p>공지사항, 자료실, 블로그 메뉴를 통해 다양한 콘텐츠를 제공하며 학습 현장에 도움이 되는 정보를 지속적으로 업데이트합니다.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="site-footer__inner">
+            <section class="footer-company">
+                <a class="footer-logo" href="#">로고</a>
+                <p>홈페이지코리아</p>
+                <p>대표: 홍길동 | 사업자등록번호: 107-88-55192</p>
+                <p>주소: 서울특별시 영등포구 경인로 775 에이스하이테크시티 2동 202호</p>
+                <p>문의: sales@homepagekorea.com</p>
+                <p class="footer-copy">© 2026 HOMEPAGEKOREA. ALL RIGHTS RESERVED.</p>
+            </section>
+
+            <nav class="footer-nav" aria-label="푸터 메뉴">
+                <div class="footer-column">
+                    <h3>회사소개</h3>
+                    <ul>
+                        <li><a href="#">인사말</a></li>
+                        <li><a href="#">연혁</a></li>
+                        <li><a href="#">오시는 길</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>제품소개</h3>
+                    <ul>
+                        <li><a href="#">대표 제품</a></li>
+                        <li><a href="#">기능 안내</a></li>
+                        <li><a href="#">도입 사례</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>온라인문의</h3>
+                    <ul>
+                        <li><a href="#">문의 접수</a></li>
+                        <li><a href="#">견적 요청</a></li>
+                        <li><a href="#">자주 묻는 질문</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>게시판</h3>
+                    <ul>
+                        <li><a href="#">공지사항</a></li>
+                        <li><a href="#">자료실</a></li>
+                        <li><a href="#">블로그</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
